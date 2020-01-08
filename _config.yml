@@ -81,6 +81,16 @@ use_date_for_updated: false
 per_page: 10
 pagination_dir: page
 
+# Show Views/Visitors of the website/page with busuanzi.
+# Get more information on http://ibruce.info/2015/04/04/busuanzi busuanzi_count: enable: true
+  total_visitors: true
+  total_visitors_icon: user
+  total_views: true
+  total_views_icon: eye
+  # 文章的阅读次数不用不蒜子
+  # 因为在首页看不到阅读数，要进入文章才能看到 post_views: false
+  post_views_icon: eye
+
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
