@@ -8,9 +8,7 @@ Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [docume
 ### Create a new post
 
 ``` bash
-$ git commit -m “try again” 提交文件到本地库，-m后面是提交注释的内容
-$ git remote add origin   url   关联远程github上刚创建的库
-$ git push -u origin master -f 将刚刚添加的文件push到github。
+$ hexo new "My New lizhuo"
 ```
 
 More info: [Writing](https://hexo.io/docs/writing.html)
